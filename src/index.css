@@ -24,6 +24,7 @@
   --black:#141414;
   --white:#FFFFFF;
   --yellow:#C89B2F;
+  --ligth-yellow:#E2C792;
 }
 body {
   margin: 0;
@@ -35,4 +36,15 @@ body {
   min-height: 100vh;
   background-color: var(--black);
   color: var(--white);
+}
+h1{
+  margin: 0;
+  line-height: 1;
+}
+h2{
+  font-family: 'Poppins-MediumItalic',sans-serif;
+  font-size: 2.5rem;
+  color: var(--ligth-yellow);
+  margin: 0;
+  line-height: 1;
 }

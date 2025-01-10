@@ -1,9 +1,16 @@
 import './landing.css';
+import corona from '../../assets/images/corona.png'
 
 const Landing = ()=>{
     return(
         <section className='landing_section' >
-            <h1>k29 drinks</h1>
+            <h1>
+                <span className='heading_k29' >K29</span>
+                <span className='heading_drinks' >drinks</span>
+            </h1>
+            <div className='landing_corona' >
+                <img src={corona} alt="corona" />
+            </div>
         </section>
     )
 }

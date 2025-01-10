@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom' 
+import { Navbar } from './components'
 import { Landing } from './views'
 import './App.css'
-import Navbar from './components/navbar/Navbar'
 
 function App() {
 

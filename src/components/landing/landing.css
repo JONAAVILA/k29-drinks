@@ -22,18 +22,18 @@
     bottom: -25px;
 }
 .landing_corona{
-    position: absolute;
+    position: fixed;
     width: 170px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    img{
-        position: relative;
-        z-index: 3;
-        width: 170px;
-    }
 }
-.landing_corona::after{
+.image_corona{
+    position: relative;
+    z-index: 3;
+    width: 170px;
+}
+.motion_corona::after{
     z-index: 2;
     position: absolute;
     content: " ";

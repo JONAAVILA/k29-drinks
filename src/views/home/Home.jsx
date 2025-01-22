@@ -1,4 +1,4 @@
-import { Categories, Landing } from "../../components"
+import { Categories, Info, Landing } from "../../components"
 import './home.css'
 
 const Home = ()=>{
@@ -6,6 +6,7 @@ const Home = ()=>{
         <section className="home_container" >
             <Landing/>
             <Categories/>
+            <Info/>
         </section>
     )
 }

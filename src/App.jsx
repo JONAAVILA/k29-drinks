@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom' 
 import { Navbar } from './components'
-import { Landing } from './views'
-import './App.css'
+import { Home } from './views'
 
 function App() {
 
@@ -9,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Landing/>} />
+        <Route path='/' element={<Home/>} />
       </Routes>
     </BrowserRouter>
   )

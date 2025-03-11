@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Shop from '../buttons/shop/Shop'
 import './navbar.css'
 
@@ -6,7 +7,9 @@ const Navbar = ()=>{
         <aside className='navbar_container' >
             <div className='navbar_box' >
                 <div className='navbar_signin' >
-                    <a href="">INGRESAR</a>
+                    <Link to={'/login'} >
+                        <span>INGRESAR</span>
+                    </Link>
                     <a href="">REGISTRARSE</a>
                 </div>
                 <div className='navbar_contact' >

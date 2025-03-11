@@ -6,7 +6,7 @@ const Navbar = ()=>{
         <aside className='navbar_container' >
             <div className='navbar_box' >
                 <div className='navbar_signin' >
-                    <a href="">INGRESO</a>
+                    <a href="">INGRESAR</a>
                     <a href="">REGISTRARSE</a>
                 </div>
                 <div className='navbar_contact' >

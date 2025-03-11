@@ -1,7 +1,23 @@
 .info_section{
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
     height: 100vh;
+    p{
+        width: 80%;
+    }
+}
+.info_image_bag{
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+    width: 400px;
+    transform: translateX(-50%);
+}
+.info_box_heading{
+    display: grid;
+    width: 60%;
+    gap: 30px;
 }

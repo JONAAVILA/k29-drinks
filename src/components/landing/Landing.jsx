@@ -39,6 +39,7 @@ const Landing = ()=>{
                         initial={{x:"0%",y:"0%"}}
                         animate={{
                             x:isAtBottom ? "-200%" : scrollPosition / 2.5,
+                            y:isAtBottom ? "50%" : null,
                             rotate:isAtBottom ? 0 : scrollPosition / 60,
                             scale:isAtBottom ? 1 : 1 + scrollPosition / 2000,
                             opacity:isAtBottom ? 0.5 : 1

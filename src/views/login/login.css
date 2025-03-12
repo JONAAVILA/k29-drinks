@@ -2,4 +2,9 @@
     display: grid;
     place-items: center;
     height: 100vh;
+    text-align: center;
+}
+.box_login{
+    display: grid;
+    gap: 15px;
 }

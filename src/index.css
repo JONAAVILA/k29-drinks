@@ -26,6 +26,12 @@
   --yellow:#C89B2F;
   --ligth-yellow:#E2C792;
 }
+:root::-webkit-scrollbar{
+  width: 5px;
+}
+:root::-webkit-scrollbar-thumb{
+  background-color: var(--ligth-yellow);
+}
 body {
   margin: 0;
   display: flex;
@@ -65,9 +71,22 @@ input{
   border-bottom: solid 1px var(--white);
   background-color: transparent;
   color: var(--white);
+  outline: none;
 }
 a{
   text-decoration: none;
   color: var(--white);
   font-size: 10px;
+}
+button{
+  width: 270px;
+  padding: 10px;
+  color: var(--white);
+  border: solid 1px var(--white);
+  background: transparent;
+  transition: all ease-in-out 300ms;
+}
+button:hover{
+  background: var(--ligth-yellow);
+  color: var(--black);
 }

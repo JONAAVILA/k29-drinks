@@ -10,6 +10,7 @@ import adminLogin from "../../../adapters/admins/adminLogin"
 import sendCode from "../../../adapters/validations/sendCode"
 import Alert from "../../modals/alerts/Alert"
 import CustomButton from "../../buttons/customButton/CustomButton"
+import './loginForm.css'
 
 const LoginForm = ({admin})=>{
     const navigate = useNavigate()

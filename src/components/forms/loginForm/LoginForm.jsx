@@ -66,8 +66,9 @@ const LoginForm = ({admin})=>{
 
     return(
         <div>
-
-            {loader && <LoadIcon size={40} />}
+            <div className="box_loader" >
+                {loader && <LoadIcon size={80} />}
+            </div>
             {alert && <Alert handleAlert={handleAlert} >{alert}</Alert>}
             {modal && <ValidateCode validate={true} admin={admin} email={formik.values.email} password={formik.values.password} />}
 

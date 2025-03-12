@@ -10,7 +10,9 @@ const Navbar = ()=>{
                     <Link to={'/login'} >
                         <span>INGRESAR</span>
                     </Link>
-                    <a href="">REGISTRARSE</a>
+                    <Link to={'/signin'} >
+                        <span>REGISTRARSE</span>
+                    </Link>
                 </div>
                 <div className='navbar_contact' >
                     <a href="">ENVIOS</a>

@@ -6,8 +6,8 @@ const Login = ()=>{
     return(
         <section className='login_container' >
             <div className='box_login' >
-                <h1>BIENVENIDO</h1>
-                <LoginForm/>
+                <h2>BIENVENIDO</h2>
+                <LoginForm admin={true} />
             </div>
         </section>
     )
